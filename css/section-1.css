@@ -1,0 +1,26 @@
+.heading-topic {
+    font-size: 27px;
+}
+.heading-btn {
+    font-size: 13px;
+    width: 98px;
+    height: 37px;
+    color: #fff;
+    background: var(--blue-1);
+    border-radius: 5px;
+    padding: 10px;
+    /* text-align: center; */
+}
+.detail {
+    font-size: 13px;
+    color: var(--black-3);
+}
+.detail-answer {
+    font-size: 13px;
+    color: var(--black-1);
+}
+.topic-details {
+    padding: 0 0 16px;
+    margin: 0 0 16px;
+    border-bottom: 1px solid #e3e6e8;
+}

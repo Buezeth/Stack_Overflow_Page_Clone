@@ -1,0 +1,237 @@
+.post-content {
+    width: 727px;
+    padding: 0 16px 0 0;
+}
+.suggestions {
+    width: 654px;
+    padding: 16px;
+    background: var(--sky-blue-1);
+    border: 1px solid var(--sky-blue-2);
+    border-radius: 10px;
+}
+.suggestions p {
+    margin-top: 8px;
+}
+.suggestions a {
+    color: var(--blue-1);
+}
+pre, code {
+    font-family: ui-monospace, 
+             Menlo, Monaco, 
+             "Cascadia Mono", "Segoe UI Mono", 
+             "Roboto Mono", 
+             "Oxygen Mono", 
+             "Ubuntu Monospace", 
+             "Source Code Pro",
+             "Fira Mono", 
+             "Droid Sans Mono", 
+             "Courier New", monospace;
+    background: #f6f6f6;
+    border-radius: 5px;
+    padding: 12px;
+    overflow: auto;
+}
+.code-inline {
+    background: #e3e6e8;
+    padding: 1px 3px;
+}
+.html-att {
+    color: var(--blue-1);
+}
+.html-att-name {
+    color: #567a0d;
+}
+.html-name {
+    color: #b75301;
+}
+.html-comment {
+    color: #666f78;
+}
+
+.content-tags a, .tag {
+    color: var(--blue-1);
+    background: var(--sky-blue-1);
+    height: 23px;
+    font-size: 11px;
+    padding: 4.8px 6px;
+    margin: 2px 2px 2px 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.tag
+
+.content-actions {
+    width: 100%;
+    margin: 16px 0;
+    padding: 4px 0 0;
+}
+.share-edit-follow {
+    width: 40%;
+}
+
+.edited-on, .asked-on {
+    width: 200px;
+    padding: 5px 6px 7px 7px;
+}
+.asked-on {
+    background: #edf5fd;
+    border-radius: 5px;
+}
+
+.badge-1, .badge-2, .badge-3 {
+    background: #000;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+.badge-1 {
+    background: #ffda47;
+}
+.badge-2 {
+    background: #b4b8bc;
+}
+.badge-3 {
+    background: #d1a684;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background: #e3e6e8;
+    margin:8px 0;
+}
+
+.post-vote {
+    padding-right: 16px;
+}
+
+.btn-up, .btn-down {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    background: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+.btn-up:hover, .btn-down:hover {
+    background: #fbdbc0;
+    cursor: pointer;
+}
+.votes {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 2px;
+    padding: 4px 0;
+}
+#sort  {
+    padding: 7.8px 32px 7.8px 9px;
+    border-radius: 5px;
+    border: 1px solid #babfc5;
+    width: 245px;
+}
+#sort:focus {
+    outline: 1px solid var(--blue-1);
+}
+
+.post-vote-save, .post-vote-history {
+    padding: 6px 0;
+}
+.post-vote-history svg:hover {
+    fill: #155ca2;
+}
+.post-vote-save svg, .post-vote-history svg {
+    fill: #d1d4d8;
+}
+.post-vote-tick svg {
+    fill: #18864b;
+}
+
+.code-run {
+    border-radius: 5px;
+    padding: 12px;
+    border: 1px solid #d6d9dc;
+    width: 654px;
+}
+.run {
+    height: 32px;
+}
+.run .link-btn {
+    width: 143px;
+}
+
+
+.side-content {
+    width: 300px;
+    /* height: auto; */
+}
+.overflow-blog {
+    border-radius: 5px;
+    border: 1px solid #f4d27b;
+    background: #fdf7e7;
+}
+
+.blog-content {
+    margin: 12px 0;
+    padding: 0 16px;
+}
+.blog-content svg {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.blog-head {
+    background: #faecc6;
+    width: 100%;
+    height: 41px;
+    padding: 12px 15px;
+}
+
+.love-this-site {
+    border-radius: 5px;
+    border: 1px solid #d6d9dc;
+    /* background: #fdf7e7; */
+}
+.l-site-content {
+    margin: 12px 0;
+    padding: 0 16px;
+}
+.l-site-topic {
+    background: #f9fafa;
+    width: 100%;
+    height: 41px;
+    padding: 12px 15px;
+}
+.l-site-list {
+    padding-left: 16px;
+}
+
+.linked h4 {
+    margin: 19px 0 14px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.num {
+    width: 32px;
+    height: 23px;
+    padding: 3px 0;
+    background: #18864b;
+}
+.num-2 {
+    width: 32px;
+    height: 23px;
+    padding: 3px 0;
+    background: #f1f2f3;
+}
+
+
+.num a, .num-2 a{
+    /* padding: 4px 5px; */
+    font-size: 11.7px;
+    text-align: center;
+    width: 100%;
+}
+.num-link {
+    width: 252px;
+}

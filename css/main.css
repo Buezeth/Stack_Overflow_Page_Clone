@@ -1,0 +1,230 @@
+/* import */
+@import url(./header.css);
+@import url(./aside.css);
+@import url(./section-1.css);
+@import url(./section-2.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+#main {
+    width: 1264px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.sections {
+    padding: 24px;
+    padding-top: 0px;
+    width: 1100px;
+}
+
+:root {
+
+    /* ================================ */
+    /* ============Variables=========== */
+    /* ================================ */
+
+    --main-color: #fff;
+
+    --blue-1: #1b75d0;
+    --blue-2: #155ca2;
+
+    --sky-blue-1: #edf5fd;
+    --sky-blue-2: #92c2f2;
+
+    --yellow-1: #faecc6;
+    --yellow-2: #fdf7e7;
+
+    --gray-1: #f6f6f6;
+
+    --black-1: #0c0d0e;
+    --black-2: #3b4045;
+    --black-3: #636b74;
+    --black-4: #a7adb4;
+
+    --code-block-bg-color: #f6f6f6;
+}
+
+
+a {
+    color: inherit;
+}
+
+
+/* =================== */
+/* ======Classes====== */
+/* =================== */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+.align-center{
+    align-items: center;
+}
+.align-start {
+    align-items: flex-start;
+}
+
+.just-center {
+    justify-content: center;
+}
+.just-space-btw {
+    justify-content: space-between;
+}
+.just-space-ard {
+    justify-content: space-around;
+}
+.just-space-even {
+    justify-content: space-evenly;
+}
+.just-start {
+    justify-content: flex-start;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.pos-static {
+    position: static;
+}
+.pos-fix {
+    position: fixed;
+}
+
+.ov-x-scroll {
+    overflow-x: scroll;
+}
+
+.no-wrap {
+    text-wrap: nowrap;
+}
+
+.marg-in-auto {
+    margin-inline: auto;
+}
+
+.no-style {
+    text-decoration: none;
+    list-style: none;
+}
+.gap-5 {
+    gap: 5px;
+}
+.gap-10 {
+    gap: 10px;
+}
+.gap-15 {
+    gap: 15px;
+}
+
+.link-btn {
+    font-size: 13px;
+    /* width: 98px; */
+    height: 37px;
+    color: #fff;
+    background: var(--blue-1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* ============ */
+/* font-sizes */
+/* ============ */
+
+.f-13 {
+    font-size: 13px !important;
+}
+.f-12 {
+    font-size: 12px !important;
+}
+.f-15 {
+    font-size: 15px !important;
+}
+.f-17 {
+    font-size: 17px !important;
+}
+.f-19 {
+    font-size: 19px !important;
+}
+
+/* ============ */
+/* font color */
+/* ============ */
+.color-b1 {
+    color: var(--black-1) !important;
+}
+.color-b2 {
+    color: var(--black-2) !important;
+}
+.color-b3 {
+    color: var(--black-3) !important;
+}
+.color-b4 {
+    color: var(--black-4) !important;
+}
+.color-bl1 {
+    color: var(--blue-1);
+}
+.color-bl2 {
+    color: var(--blue-2);
+}
+.color-w {
+    color: var(--main-color);
+}
+
+/* ============ */
+/* ===margin=== */
+/* ============ */
+.marg-b-12 {
+    margin-bottom: 12px;
+}
+.marg-b-19 {
+    margin-bottom: 19px;
+}
+.marg-l-8 {
+    margin-left: 8px;
+}
+.marg-b-4 {
+    margin-bottom: 4px !important;
+}
+.marg-t-4 {
+    margin-top: 8px;
+}
+/* ============= */
+/* ===padding=== */
+/* ============= */
+.p-0 {
+    padding: 0;
+}
+.p-6 {
+    padding: 6px;
+}
+.p-t-6 {
+    padding-top: 6px;
+}
+.p-t-16 {
+    padding-top: 16px;
+}
