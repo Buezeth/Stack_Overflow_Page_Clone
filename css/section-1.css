@@ -24,3 +24,21 @@
     margin: 0 0 16px;
     border-bottom: 1px solid #e3e6e8;
 }
+
+/*==============================================*/
+/*==============Responsive Designe==============*/
+/*==============================================*/
+
+@media screen and (max-width: 1300px) {
+    .heading {
+        /* max-width: 1052px;
+        min-width: 305px; */
+        width: 100%;
+    }
+}
+@media screen and (max-width: 846px){}
+@media screen and (max-width: 980px){}
+
+@media screen and (max-width: 816px){}
+@media screen and (max-width: 791px) {}
+@media screen and (max-width: 640px) {}

@@ -4,6 +4,7 @@
     background: var(--main-color);
     border-top: 3px solid #e7700d;
     border-bottom: 1px solid #d6d9dc;
+    z-index: 100;
 }
 .header-container {
     height: 100%;
@@ -103,3 +104,17 @@
     top: 20%;
     right: 15%;
 }
+
+
+
+/*==============================================*/
+/*==============Responsive Designe==============*/
+/*==============================================*/
+
+@media screen and (max-width: 1300px) {}
+@media screen and (max-width: 846px){}
+@media screen and (max-width: 980px){}
+
+@media screen and (max-width: 816px){}
+@media screen and (max-width: 791px) {}
+@media screen and (max-width: 640px) {}

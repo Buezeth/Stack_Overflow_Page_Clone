@@ -1,13 +1,19 @@
 .post-content {
-    width: 727px;
+    /* max-width: 727px; */
+    max-width: 727px;
+    min-width: 428px;
+    /* width: 95%; */
     padding: 0 16px 0 0;
 }
 .suggestions {
-    width: 654px;
+    width: 99%;
     padding: 16px;
     background: var(--sky-blue-1);
     border: 1px solid var(--sky-blue-2);
     border-radius: 10px;
+}
+.resposive-width {
+    width: 99%;
 }
 .suggestions p {
     margin-top: 8px;
@@ -62,9 +68,10 @@ pre, code {
 .tag
 
 .content-actions {
-    width: 100%;
+    /* width: 60%; */
     margin: 16px 0;
     padding: 4px 0 0;
+    overflow: hidden;
 }
 .share-edit-follow {
     width: 40%;
@@ -151,7 +158,14 @@ pre, code {
     border-radius: 5px;
     padding: 12px;
     border: 1px solid #d6d9dc;
-    width: 654px;
+    /* width: 100%; */
+}
+.code-run {
+    max-width: 100%;
+}
+.code-run code{
+    /* text-wrap: nowrap; */
+    width: 100%;
 }
 .run {
     height: 32px;
@@ -235,3 +249,51 @@ pre, code {
 .num-link {
     width: 252px;
 }
+
+
+
+/*==============================================*/
+/*==============Responsive Designe==============*/
+/*==============================================*/
+
+@media screen and (max-width: 1300px) {
+   
+}
+@media screen and (max-width: 1100px){
+    
+}
+@media screen and (max-width: 1140px){
+    .content-actions {
+        flex-wrap: wrap;
+        justify-content: right;
+        
+    }
+    .edited-on, .asked-on {
+        width: 200px;
+        /* padding: 5px 6px 7px 7px; */
+    }
+    .share-edit-follow {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 846px){}
+@media screen and (max-width: 980px){
+    .section-2 {
+        flex-direction: column !important;
+    }
+    .post-content {
+        padding: 0;
+    }
+    /* .resposive-width {
+        width: 98%;
+    } */
+}
+
+@media screen and (max-width: 816px){
+    .content-actions {
+        flex-wrap: wrap;
+        justify-content: right;
+    }
+}
+@media screen and (max-width: 791px) {}
+@media screen and (max-width: 640px) {}

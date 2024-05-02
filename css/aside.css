@@ -3,6 +3,12 @@
     font-size: 11px;
     /* top: 10%; */
     overflow-x: hidden;
+    position: fixed;
+    height: 100vh;
+    top: 5%;
+    padding-top: 30px;
+    border-right: 1px solid #d6d9dc;
+    overflow-y: scroll;
 }
 .aside a {
     gap: 5px;
@@ -90,3 +96,16 @@
     color: var(--black-2);
     font-weight: 700;
 }
+
+
+/*==============================================*/
+/*==============Responsive Designe==============*/
+/*==============================================*/
+
+@media screen and (max-width: 1300px) {}
+@media screen and (max-width: 846px){}
+@media screen and (max-width: 980px){}
+
+@media screen and (max-width: 816px){}
+@media screen and (max-width: 791px) {}
+@media screen and (max-width: 640px) {}

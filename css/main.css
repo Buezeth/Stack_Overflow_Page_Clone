@@ -3,6 +3,7 @@
 @import url(./aside.css);
 @import url(./section-1.css);
 @import url(./section-2.css);
+@import url(./footer.css);
 
 * {
     box-sizing: border-box;
@@ -14,14 +15,18 @@ body {
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 #main {
-    width: 1264px;
+    /* width: 1264px; */
+    max-width: 1264px;
     margin: 0 auto;
     padding-top: 90px;
 }
 .sections {
     padding: 24px;
+    margin-left: 164px;
     padding-top: 0px;
-    width: 1100px;
+    width: 100%;
+    max-width: 1100px;
+    min-width: 428px;
 }
 
 :root {

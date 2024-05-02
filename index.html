@@ -67,8 +67,9 @@
             </div>
         </div>
     </header>
+
     <main id="main" class="margin-in-auto">
-        <div class="main-container flex-row">
+        <div class="main-container flex-row align-center just-space-btw">
             <aside class="aside">
                 <a href="#" class="home on-hover-aside flex-row no-style align-center">
                     <svg aria-hidden="true" class=" fill-black-2 svg-icon iconHome" width="18" height="18" viewBox="0 0 18 18"><path d="M15 10v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5H0l9-9 9 9h-3Zm-8 1v6h4v-6H7Z"></path></svg>
@@ -154,7 +155,7 @@
                 </section>
                 <section class="section-2 flex-row just-space-btw">
                     <div class="post-content">
-                        <div class="post-layer flex-row align-start just-start">
+                        <div class="post-layer resposive-width flex-row align-start just-start">
                             <div class="post-vote flex-col just-center align-center">
                                 <button class="btn-up">
                                     <svg aria-hidden="true" class="svg-icon iconArrowUp" width="18" height="18" viewBox="0 0 18 18"><path d="M1 12h16L9 4l-8 8Z"></path></svg>
@@ -179,7 +180,7 @@
                                         <p><a href="#">How to center an element horizontally and vertically</a> (28 answers)</p>
                                         <p>Closed last year</p>
                                     </div>
-                                    <div class="question-text flex-col color-b1 f-13">
+                                    <div class="question-text resposive-width flex-col color-b1 f-13">
                                         <br>
                                         <p class="f-15">I want to center a div without centering its children like so:</p>
                                         <br>
@@ -249,7 +250,7 @@
                                 </div>
                                 <br>
                                 <div class="line"></div>
-                                <div class="more-content p-6 color-b1">
+                                <div class="more-content resposive-width p-6 color-b1">
                                     <div class="more-content-detail f-13 flex-row just-space-btw gap-10">
                                         <p>3</p>
                                         <p>The problem is we have so little to go off here - we don't know what anything looks like and what result you want. Or what you mean with `your div of choosing' - it needs to be centered on something. Flexboxes to the rescue here, you can do exactly what you want with very few downsides, but it needs some tweaking on the side for it to work as you want it to. – <a href="#" class="no-style color-bl1">somethinghere <span class="color-b4">Mar 14, 2023 at 14:49</span></a></p>
@@ -283,7 +284,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="answer-layer flex-row just-space-btw">
+                        <div class="answer-layer  flex-row just-space-btw">
                             <p class="f-19">2 Answers</p>
                             <div class="sort-answers">
                                 <label for="sort" class="f-12">Sorted-by:</label>
@@ -296,7 +297,7 @@
                             </div>
                         </div>
                         <br>
-                        <div class="post-layer flex-row align-start just-start">
+                        <!-- <div class="post-layer resposive-width flex-row align-start just-start">
                             <div class="post-vote flex-col just-center align-center">
                                 <button class="btn-up">
                                     <svg aria-hidden="true" class="svg-icon iconArrowUp" width="18" height="18" viewBox="0 0 18 18"><path d="M1 12h16L9 4l-8 8Z"></path></svg>
@@ -315,12 +316,12 @@
                                     <svg aria-hidden="true" class="mln2 mr0 svg-icon iconHistory" width="19" height="18" viewBox="0 0 19 18"><path d="M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z"></path></svg>
                                 </a>
                             </div>
-                            <div class="post-content-text">
-                                <div class="main-text-content f-13">
+                            <div class="post-content-text resposive-width">
+                                <div class="main-text-content f-13 resposive-width">
                                     <p class="f-15">It would center your element without centring its children</p>
                                     <br>
-                                    <div class="code-run  no-wrap">
-                                        <code class="flex-col ov-x-scroll marg-b-19">
+                                    <div class="code-run resposive-width no-wrap">
+                                        <code class="flex-col resposive-width ov-x-scroll marg-b-19">
                                             <span class="html-tag">&lt;<span class="html-name">div</span><span class="html-att"> style=</span><span class="html-att-name">"display: flex; flex-direction: row; align-items: center; justify-content: center;"</span>&gt;</span>
                                             <span class="html-tag">&nbsp;&nbsp;&lt;<span class="html-name">div</span>&gt;</span>
                                             <span class="html-tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="html-name">h1</span>&gt;<span class="html-text">This is your text</span>&lt;<span class="html-name">h1</span>/&gt;</span>
@@ -331,16 +332,12 @@
                                             <a href="#" class="link-btn no-style flex-row gap-5"><svg aria-hidden="true" class="svg-icon iconPlay" fill="#fff" width="17" height="18" viewBox="0 0 17 18"><path d="M3 2.87a1 1 0 0 1 1.55-.83l9.2 6.13a1 1 0 0 1 0 1.66l-9.2 6.13A1 1 0 0 1 3 15.13z"></path></svg>  Run code snippet</a>
                                             <a href="#" class="color-bl1">
                                                 
-                                                <!-- <svg aria-hidden="true">
-                                                    <path xmlns="http://www.w3.org/2000/svg" class="st3" d="M8 228H1v-7h2v-1H0v9h9v-3H8z"/>
-                                                    <path xmlns="http://www.w3.org/2000/svg" class="st3" d="M7.7 220H5v1h2.3l-3.7 3.7.7.7 3.7-3.7v2.3h1v-4z"/>
-                                                </svg> -->
+                                                
                                                 Expand snippet
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="content-tags flex-row"></div>
                                 <div class="content-actions flex-row">
                                     <div class="share-edit-follow flex-row color-b3 f-13 gap-10">
                                         <a href="#" class="no-style">Share</a>
@@ -373,8 +370,7 @@
                                                 <a href="#" class="no-style color-bl1 f-13">Moussa Bistami</a>
                                                 <div class="views f-12 flex-row just-center align-center gap-5">
                                                     <p>987</p>
-                                                    <!-- <div class="badge-1"></div>
-                                                    <p>1</p> -->
+                                                    
                                                     <div class="badge-2"></div>
                                                     <p>6</p>
                                                     <div class="badge-3"></div>
@@ -400,11 +396,117 @@
                                     <br>
                                 </div>
                             </div>
+                        </div> -->
+
+
+                        <div class="post-layer resposive-width flex-row align-start just-start">
+                            <div class="post-vote flex-col just-center align-center">
+                                <button class="btn-up">
+                                    <svg aria-hidden="true" class="svg-icon iconArrowUp" width="18" height="18" viewBox="0 0 18 18"><path d="M1 12h16L9 4l-8 8Z"></path></svg>
+                                </button>
+                                <p class="votes">1</p>
+                                <button class="btn-down marg-b-4">
+                                    <svg aria-hidden="true" class="svg-icon iconArrowDown" width="18" height="18" viewBox="0 0 18 18"><path d="M1 6h16l-8 8-8-8Z"></path></svg>
+                                </button>
+                                <a href="#" class="post-vote-save">
+                                    <svg aria-hidden="true" class="js-saves-btn-unselected svg-icon iconBookmarkAlt" width="18" height="18" viewBox="0 0 18 18"><path d="m9 10.6 4 2.66V3H5v10.26l4-2.66ZM3 17V3c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v14l-6-4-6 4Z"></path></svg>
+                                </a>
+                                <a href="#" class="post-vote-history">
+                                    <svg aria-hidden="true" class="mln2 mr0 svg-icon iconHistory" width="19" height="18" viewBox="0 0 19 18"><path d="M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z"></path></svg>
+                                </a>
+                            </div>
+                            <div class="post-content-text">
+                                <div class="main-text-content">
+                                    <div class="question-text resposive-width flex-col color-b1 f-13">
+                                        <br>
+                                        <p class="f-15">I want to center a div without centering its children like so:</p>
+                                        <br>
+                                        <!-- <pre> -->
+                                            <div class="code-run pos-rel">
+                                                <code class="flex-col resposive-width ov-x-scroll marg-b-19">
+                                                    <span class="html-tag">&lt;<span class="html-name">div</span><span class="html-att"> style=</span><span class="html-att-name">"display: flex; flex-direction: row; align-items: center; justify-content: center;"</span>&gt;</span>
+                                                    <span class="html-tag">&nbsp;&nbsp;&lt;<span class="html-name">div</span>&gt;</span>
+                                                    <span class="html-tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="html-name">h1</span>&gt;<span class="html-text">This is your text</span>&lt;<span class="html-name">h1</span>/&gt;</span>
+                                                    <span class="html-tag">&nbsp;&nbsp;&lt;<span class="html-name">div</span>/&gt;</span>
+                                                    <span class="html-tag">&lt;<span class="html-name">div</span>/&gt;</span>
+                                                </code>
+                                                <div class="run flex-row align-center gap-10 ">
+                                                    <a href="#" class="link-btn no-style flex-row gap-5"><svg aria-hidden="true" class="svg-icon iconPlay" fill="#fff" width="17" height="18" viewBox="0 0 17 18"><path d="M3 2.87a1 1 0 0 1 1.55-.83l9.2 6.13a1 1 0 0 1 0 1.66l-9.2 6.13A1 1 0 0 1 3 15.13z"></path></svg>  Run code snippet</a>
+                                                    <a href="#" class="color-bl1">
+                                                        
+                                                        
+                                                        Expand snippet
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        <!-- </pre> -->
+                                        <br>
+                                    </div>
+                                </div>
+                                
+                                <br>
+                                <div class="content-actions flex-row">
+                                    <div class="share-edit-follow flex-row color-b3 f-13 gap-10">
+                                        <a href="#" class="no-style">Share</a>
+                                        <a href="#" class="no-style">Edit</a>
+                                        <a href="#" class="no-style">Follow</a>
+                                    </div>
+                                    <div class="edited-on flex-col">
+                                        <a href="#" class="no-style color-bl1 f-12 marg-b-4">edited Mar 14, 2023 at 15:42</a>
+                                        <div class="edit-user flex-row">
+                                            <a href="#"><img src="https://i.stack.imgur.com/F02qE.jpg?s=64&amp;g=1" alt="Adam's user avatar" width="32" height="32" class="bar-sm"></a>
+                                            <div class="edit-user-detail marg-l-8">
+                                                <a href="#" class="no-style color-bl1 f-13">Adam</a>
+                                                <div class="views f-12 flex-row just-center align-center gap-5">
+                                                    <p>5,711</p>
+                                                    <div class="badge-1"></div>
+                                                    <p>2</p>
+                                                    <div class="badge-2"></div>
+                                                    <p>8</p>
+                                                    <div class="badge-3"></div>
+                                                    <p>26</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="asked-on">
+                                        <p class="no-style color-b3 f-12 marg-b-4">answered Mar 14, 2023 at 14:52</p>
+                                        <div class="aske-user flex-row">
+                                            <a href="#"><img src="https://i.stack.imgur.com/QFT1X.jpg?s=64&amp;g=1" alt="Moussa Bistami's user avatar" width="32" height="32" class="bar-sm"></a>
+                                            <div class="ask-user-detail marg-l-8">
+                                                <a href="#" class="no-style color-bl1 f-13">Moussa Bistami</a>
+                                                <div class="views f-12 flex-row just-center align-center gap-5">
+                                                    <p>987</p>
+                                                    
+                                                    <div class="badge-2"></div>
+                                                    <p>6</p>
+                                                    <div class="badge-3"></div>
+                                                    <p>16</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="line"></div>
+                                <div class="more-content resposive-width p-6 color-b1">
+                                    
+                                    <div class="more-content-detail f-13 flex-row gap-10">
+                                        <p>1</p>
+                                        <p>N.B. flex-direction:row is the default value, it's not necessary here –<a href="#" class="no-style color-bl1"> Sfili_81</a>  <a href="#" class="no-style color-bl1">Adam <span class="color-b4"> Mar 14, 2023 at 14:59 </span></a></p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="more-content-detail f-13 flex-row gap-10">
+                                        <a href="#" class="color-b4 f-13 no-style marg-b-4">Add a comment</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
                         </div>
 
                         <div class="line marg-t-4"></div>
 
-                        <div class="post-layer flex-row align-start just-start p-t-16">
+                        <div class="post-layer resposive-width flex-row align-start just-start p-t-16">
                             <div class="post-vote flex-col just-center align-center">
                                 <button class="btn-up">
                                     <svg aria-hidden="true" class="svg-icon iconArrowUp" width="18" height="18" viewBox="0 0 18 18"><path d="M1 12h16L9 4l-8 8Z"></path></svg>
@@ -712,6 +814,73 @@
             </div>
         </div>
     </main>
-    <footer id="footer"></footer>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#"><svg aria-hidden="true" width="32" height="37" viewBox="0 0 32 37"><path d="M26 33v-9h4v13H0V24h4v9h22Z" fill="#BCBBBB"></path><path d="m21.5 0-2.7 2 9.9 13.3 2.7-2L21.5 0ZM26 18.4 13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5ZM9.1 15.2l15 7 1.4-3-15-7-1.4 3Zm14 10.79.68-2.95-16.1-3.35L7 23l16.1 2.99ZM23 30H7v-3h16v3Z" fill="#F48024"></path></svg></a>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-col">
+                    <h5><a href="#">STACK OVERFLOW</a></h5>
+
+                    <ul class="footer-list">
+                        <li><a href="#">Question</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5><a href="#">PRODUCTS</a></h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Teams</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Collective</a></li>
+                        <li><a href="#">Talent</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5><a href="#">COMPANY</a></h5>
+
+                    <ul class="footer-list">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Work Here</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Cookie Settings</a></li>
+                        <li><a href="#">Cooky Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5><a href="#">STACK EXCHANGE NETWORK</a></h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Culture & recreation</a></li>
+                        <li><a href="#">Life & arts</a></li>
+                        <li><a href="#">Science</a></li>
+                        <li><a href="#">Professional</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Data</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copy-right">
+                <ul>
+                    <li><a href="#">Block</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+                <p>Site design / logo © 2024 Stack Exchange Inc; user contributions licensed under <a href="#">CC BY-SA</a>. rev 2024.4.12.7646</p>
+            </div>
+        </div>
+
+    </footer>
 </body>
+<script src="./js/aside.js"></script>
 </html>
