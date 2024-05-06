@@ -3,12 +3,13 @@
     font-size: 11px;
     /* top: 10%; */
     overflow-x: hidden;
-    position: fixed;
+    /* position: fixed; */
+    position: absolute;
     height: 100vh;
     top: 5%;
     padding-top: 30px;
     border-right: 1px solid #d6d9dc;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 .aside a {
     gap: 5px;
